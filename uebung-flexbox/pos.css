@@ -29,33 +29,42 @@ section {
   min-width: 10px;
   padding: 1rem 0;
   min-height: 300px;
+  display: flex;
+  background: yellow;
+  justify-content: space-between;/*verteilung des Restplatzes auf der X-Achse*/
+  align-items: stretch;/*verteilung auf der Y-Achse*/
 }
 
 .col {
   min-width: 20px;
   min-height: 20px;
   margin: 10px;
-  width: 20%;
+  /*hier könnte auch flex-grow: 1; stehen anstatt einzel aufgeführt*/
 }
 
 .trolley-grey {
   background: #7d7c84;
+  flex-grow: 1;
 }
 
 .sea-green {
   background: #2d93ad;
+  flex-grow: 1;
 }
 
 .middle-red {
   background: #de8f6e;
+  flex-grow: 1;
 }
 
 .black {
   background: #000;
+  flex-grow: 1;
 }
 
 .orange {
   background: orange;
+  flex-grow: 1;
 }
 
 .olive {

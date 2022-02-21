@@ -8,6 +8,7 @@ body {
   width: 100%;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
+  background:  white;
 }
 
 .wrapper {
@@ -32,5 +33,23 @@ body {
 }
 
 .row {
-  display: block;
+  display: flex;
 }
+@media (min-width: 810px)  {
+  body{
+background: yellow;
+}
+
+h2 {
+  text-align: center;
+}
+h1, 
+h2 {
+  font-size: 36px;
+}
+/*gilt für Bildschirme ab 1200px*/
+@media (min-width: 1200px){
+  .row {
+    display: flex;
+  }
+

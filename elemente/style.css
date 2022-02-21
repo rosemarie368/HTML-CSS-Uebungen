@@ -1,1 +1,35 @@
+/* div soll
+*/
+*{
+box-sizing: border-box;
+} 
+
+
+div{
+    width: 400px;
+    border: 1px solid blue;
+    height: 100px;
+    padding: 10px;
+    margin: 20px;
+    display: block;
+}
+
+
+a{
+width: 400ppx;
+padding: 10px;
+height: 100;
+display: inline;
+
+}
+
+img{
+    width: 400px;
+    display: inline-block;
+}
+span {
+color: blueviolet;
+font-weight: bold;
+
+}
 
