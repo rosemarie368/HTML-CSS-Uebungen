@@ -31,6 +31,9 @@ section {
 .container {
   width: 100%;
   height: 600px;
+  position: relative;
+  left: 0px;
+  background-color: aquamarine;
 }
 
 .element {
@@ -40,16 +43,32 @@ section {
 
 .electric-purple {
   background: #c200fb;
+  position: absolute;
+  right: 100px;
+  top: 100px;
+  z-index: 52;
 }
 
 .raspberry {
   background: #ec0868;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 51;
 }
 
 .ferrari-red {
   background: #fc2f00;
+  position: absolute;
+  left: 200px;
+  bottom: 200px;
+  z-index: 53;
 }
 
 .black {
   background: #000;
+  position: fixed;
+  right: 0;
+  top:    0;
+  z-index: 54;
 }

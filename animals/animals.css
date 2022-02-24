@@ -109,3 +109,27 @@ img {
 figure {
   max-width: 400px;
 }
+
+figcaption{
+  position: absolute;
+  bottom: 20px;
+}
+
+.box{
+  position: relative;
+  top: 10rem;
+}
+
+figure {
+  position: absolute;
+  top: 0;
+}
+
+.heading{
+  position: fixed;
+  z-index: 10;
+  background-color: #fff;
+  width: 100%;
+
+}
+
